@@ -4,9 +4,15 @@
 	align-items: center;
 	justify-content: space-between;
 
+
     h1 {
         color: #fff;
         font-weight: 900;
+		a {
+			text-decoration: none;
+			color: #fff;
+			font-weight: 800;
+		}
     }
 
 	> div:first-child {

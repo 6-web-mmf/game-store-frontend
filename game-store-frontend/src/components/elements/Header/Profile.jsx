@@ -11,7 +11,7 @@ export default function Profile() {
         </div>
         <div className={styles.profile}>
             <div>
-                <img src="https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-C116nf396xN5.jpg" alt="" />
+                <img src="../../../../public/img/userIcon.jpg" alt="" />
             </div>
             <i className='bx bx-caret-down'></i>
         </div>
