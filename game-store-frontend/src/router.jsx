@@ -17,11 +17,11 @@ export const router = createBrowserRouter([
                 path: "/auth",
                 element: <AuthPage />
             },
-            {
-                path: "/*",
-                element: <NotFound/>
-            },
+
         ]
     },
-
+    {
+        path: "*",
+        element: <NotFound/>
+    },
 ])
