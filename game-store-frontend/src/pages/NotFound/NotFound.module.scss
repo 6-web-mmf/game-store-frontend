@@ -1,0 +1,16 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    span{
+        font-size: 100px;
+        color: red;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+        color: #5E2129;
+        font-size: 40px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
