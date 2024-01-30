@@ -1,0 +1,88 @@
+{
+    "games": [
+        {
+            "id": "1",
+            "title": "some title 1",
+            "description": "some description 1",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "category_id": "1",
+            "views": 50,
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1"
+        },
+        {
+            "id": "2",
+            "title": "some title 2",
+            "description": "some description 2",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "views": 50,
+            "category_id": "1",
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg"
+        }
+    ],
+    "comments": [
+        {
+            "id": "1",
+            "text": "some comment about 1 game",
+            "creatorId": "1",
+            "gameId": "1",
+            "createdAt": "2024-01-30T13:12:07.623Z",
+            "updatedAt": "2024-01-30T13:12:07.623Z"
+        },
+        {
+            "id": "2",
+            "text": "some comment about 2 game",
+            "creatorId": "2",
+            "gameId": "2",
+            "createdAt": "2024-01-30T13:12:07.623Z",
+            "updatedAt": "2024-01-30T13:12:07.623Z"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "title": "1 category"
+        }
+    ],
+
+    "orders": [
+        {
+            "id": "1",
+            "gameId": "1",
+            "userId": "1",
+            "createdAt": "2024-01-30T13:14:02.875Z",
+            "successAt": "2024-01-30T13:14:02.875Z"
+        }
+    ],
+    "users": [ 
+        {
+            "id": "1",
+            "username": "user 1",
+            "email": "user1@gmail.com",
+            "password": "password",
+            "createdAt": "2024-01-30T13:14:30.094Z",
+            "updatedAt": "2024-01-30T13:14:30.094Z",
+            "lastLogin": "2024-01-30T13:14:30.094Z",
+            "roles": [
+              "ROLE_USER"
+            ],
+            "balance": 0,
+            "imageId": "string"
+          }
+    ],
+    
+    "profile": {
+        "name": "typicode"
+    }
+}
