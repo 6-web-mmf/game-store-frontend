@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import Header from './components/elements/Header/Header'
-import Footer from './components/elements/Footer/Footer'
-import { Provider } from 'react-redux'
-import { store } from './redux'
+import { useEffect, useState } from 'react'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
+import { useDispatch, useSelector } from 'react-redux'
+import { getAllGames } from './redux/slices/gameSlice'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    
-    <div className='container'>
-      <Header/>
-    </div>
+    <RouterProvider router={router}/>
   )
 }
 
