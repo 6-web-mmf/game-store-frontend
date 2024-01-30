@@ -1,16 +1,21 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { getAllGames } from './redux/slices/gameSlice'
-
-
+import { getAllCategories } from './redux/slices/categorySlice'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(getAllGames())
+    dispatch(getAllCategories())
+  }, [])
 
   return (
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   )
 }
 
