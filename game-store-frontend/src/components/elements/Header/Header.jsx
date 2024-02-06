@@ -3,9 +3,13 @@ import styles from './Header.module.scss'
 import Profile from './Profile'
 import 'boxicons'
 import { NavLink, useLocation } from 'react-router-dom'
+import Modal from '../Modal/Modal'
 
 export default function Header() {
   const location = useLocation()
+
+  const [active, setActive] = React.useState(true)
+
   return (
     <header>
       <div className={styles.header}>
@@ -25,7 +29,8 @@ export default function Header() {
         }
         
       </nav>
-      <Profile/>
+      <Profile setActive={setActive}/>
+      <Modal active={active} />
       </div>
       <hr />
     </header>

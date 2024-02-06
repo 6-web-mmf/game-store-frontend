@@ -6,7 +6,7 @@ function GameComponent({ game }) {
     return (
         <Link to={'game/' + game.id}>
             <div className={style.game}>
-                <h2>{game.title}</h2>
+                <h2 >{game.title}</h2>
                 <p>{game.description}</p>
                 <p>{game.price}</p>
                 <p>{game.views}</p>
