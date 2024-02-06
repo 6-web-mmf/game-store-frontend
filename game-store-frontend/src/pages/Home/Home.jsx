@@ -3,7 +3,7 @@ import Search from '../../components/UI/Search'
 import { useSelector } from 'react-redux'
 import GameComponent from '../../components/Game/GameComponent'
 import style from './home.module.scss'
-
+import Banner from './Banner/Banner'
 function Home() {
 
   const { loading, error, games } = useSelector(store => store.game)
@@ -11,7 +11,8 @@ function Home() {
 
   return (
     <div className={style.home}>
-      <Search />
+      <Banner/>
+      <Search/>
       {
         category.loading
         ? <p>Loading...</p>

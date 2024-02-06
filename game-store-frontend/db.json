@@ -3,7 +3,7 @@
         {
             "id": "1",
             "title": "some title 1",
-            "description": "some description 1",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "createdAt": "2024-01-30T13:10:51.346Z",
             "updatedAt": "2024-01-30T13:10:51.347Z",
             "price": 100,
@@ -19,6 +19,66 @@
             "id": "2",
             "title": "some title 2",
             "description": "some description 2",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "views": 50,
+            "category_id": "1",
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg"
+        },
+        {
+            "id": "3",
+            "title": "some title 3",
+            "description": "some description 3",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "views": 50,
+            "category_id": "1",
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg"
+        },
+        {
+            "id": "4",
+            "title": "some title 4",
+            "description": "some description 4",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "views": 50,
+            "category_id": "1",
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg"
+        },
+        {
+            "id": "5",
+            "title": "some title 5",
+            "description": "some description 5",
+            "createdAt": "2024-01-30T13:10:51.346Z",
+            "updatedAt": "2024-01-30T13:10:51.347Z",
+            "price": 100,
+            "views": 50,
+            "category_id": "1",
+            "rating": {
+                "positive": 10,
+                "negative": 0
+            },
+            "imageId": "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg"
+        },
+        {
+            "id": "6",
+            "title": "some title 6",
+            "description": "some description 6",
             "createdAt": "2024-01-30T13:10:51.346Z",
             "updatedAt": "2024-01-30T13:10:51.347Z",
             "price": 100,

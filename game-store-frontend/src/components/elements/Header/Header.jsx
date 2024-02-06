@@ -27,7 +27,7 @@ export default function Header() {
       </nav>
       <Profile/>
       </div>
-      <hr />
+     
     </header>
   )
 }

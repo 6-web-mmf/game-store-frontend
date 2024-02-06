@@ -21,11 +21,21 @@ function Game() {
                 loading
                     ? <p>Loading...</p>
                     : <div>
-                        <h2>{game?.title}</h2>
-                        <p>{game?.description}</p>
-                        <p>{game?.price}</p>
-                        <p>{game?.views}</p>
-                        <img src={game?.imageId} alt="image" />
+                        <div className={style.container}>
+                            <div className={style.rightContent}>
+                                <div className={style.text}>
+                                    <h2 className={style.title}>{game?.title}</h2>
+                                    <p className={style.description}>{game?.description}</p>
+                                </div>
+                                <div className={style.downPart}>
+                                    <p className={style.price}>{game?.price} $</p>
+                                    <button className={style.buy}>Add to cart</button>
+                                </div>
+                            </div>
+                            <img src={game?.imageId} alt="image" />
+                        </div>
+
+                        
                     </div>
             }
             {

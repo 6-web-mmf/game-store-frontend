@@ -1,7 +1,63 @@
 .game {
-    color: #fff;
 
+    color: #fff;
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        
+        .downPart{
+            display: flex;
+            flex-direction: row-reverse;
+            margin-right: 40px;
+            .price {
+                display: flex;
+                align-items: center;
+                order: 1;
+                text-align: center;
+                font-size: 40px;
+                margin-top: 20px;
+                font-weight: 600;
+            }
+        }
+        .rightContent{
+            min-height: 453px;
+            width: 600px;
+            border: 1px groove black;
+            border-radius: 20px;
+            order: 1;
+            margin-top: 40px;
+            background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+            .text {
+                margin-top: 40px;
+                padding: 0 40px 0 40px;
+                line-height: 1.4;
+                .title{
+                    font-size: 60px;
+                    font-weight: 600;
+                    font-family: sans-serif;
+                }
+                .description{
+                    margin-top: 20px;
+                }
+            }
+            .buy {
+                margin-left: 40px;
+                margin-top: 20px;
+                width: 220px;
+                height: 59px;
+                color: black;
+                cursor: pointer;
+                border-radius: 50px;
+                font-weight: 600;
+                font-size: 20px
+            }
+            
+        }
+    }
     img {
-        width: 50%;
+        margin-top: 40px;
+        max-width: 40%;
+        border-radius: 90px;
+        
     }
 }
